@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vasquez Week 15</title>
+  <meta name="viewport" content="initial-scale=1, user-scalable=no, width=device-width">
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <link rel="stylesheet" href="monoflatredv3.min.css">
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+  <section data-role="page" id="home">
+    <header data-role="header">
+      <h1>Makin' Music</h1>
+      <nav data-role="navbar">
+        <ul>
+          <li><a href="#home" data-icon="home" data-transition="slidedown" class="ui-alt-icon">Home</a></li>
+          <li><a href="#page2" data-icon="star" data-transition="slidedown" class="ui-alt-icon">Resources</a></li>
+        </ul>
+      </nav>
+      <a href="#info" data-icon="user" data-iconpos="notext" data-transition="pop" class="ui-btn-right ui-alt-icon">Info</a>
+    </header> <!-- end header -->
+
+    <article role="main" class="ui-content container">
+      <div class="box">
+        <h2>I sample music.</h2>
+        <h5 style="margin:2px;">Mostly <em>jazz</em>.</h5>
+        <p>I was influenced by these two:</p>
+        <h3 style="display:inline;"><a href="https://www.youtube.com/watch?v=TYRDgd3Tb44" target="_blank">Nujabes</a></h3>&nbsp;&amp;
+        <h3  style="display:inline;"><a href="https://www.youtube.com/watch?v=1QWY7CBNrgM" target="_blank">J Dilla</a></h3>
+        <p>I use the AKAI MPC 1000:</p>
+        <img src="https://medias.audiofanzine.com/images/thumbs3/akai-mpc1000-607723.jpg" alt="mpc1000">
+        <p>My soundcloud is <a href="https://soundcloud.com/cutratefuture" target="_blank">here</a>.</p>
+      </div>
+    </article> <!-- END main content -->
+
+    <footer data-role="footer" data-position="fixed">
+      <h4>&copy; Christian Vasquez</h4>
+    </footer> <!-- END FOOTER -->
+  </section> <!-- end of home  -->
+
+  <section data-role="page" id="page2">
+
+    <header data-role="header">
+      <h1>Learnin'</h1>
+      <nav data-role="navbar">
+        <ul>
+          <li><a href="#home" data-icon="home" data-transition="slideup" class="ui-alt-icon">Home</a></li>
+          <li><a href="#page2" data-icon="star" data-transition="slideup" class="ui-alt-icon">Resources</a></li>
+        </ul>
+      </nav>
+    </header> <!-- end header -->
+
+    <article role="main" class="ui-content container">
+      <div class="box">
+        <h2>Resources</h2>
+        <p>Here are some people that have helped me learn.</p>
+        <ul style="list-style-type: none;">
+          <li><a href="https://www.youtube.com/channel/UCapo4XcpVOlTLkbKIDL0WlA" target="_blank">You Suck at Producing</a></li>
+          <li><a href="https://www.youtube.com/user/Verysickbeats" target="_blank">Verysickbeats</a></li>
+          <li><a href="https://www.youtube.com/channel/UCvrm14JUt8w33kqzbwpyDow" target="_blank">Alonso Majikal</a></li>
+        </ul>
+        <p><a href="#sidePanel" data-role="button" data-icon="camera" class="btn">Recommended Gear</a></p>
+      </div>
+    </article> <!-- END main content -->
+
+    <footer data-role="footer" data-position="fixed">
+      <h4>&copy; Christian Vasquez</h4>
+    </footer> <!-- END FOOTER -->
+
+    <aside data-role="panel" id="sidePanel" class="sideP">
+      <h2>Great Starter Gear</h2>
+      <small>For the newbie</small>
+      <ul>
+        <li><a href="https://www.sweetwater.com/store/detail/Maschine3--native-instruments-maschine-mk3" target="_blank">Native Instrument's Maschine</a><p>Really user-friendly, 5/5</p></li>
+        <li><a href="https://www.sweetwater.com/store/detail/LaunchK2mini--novation-launchkey-mini-keyboard-controller" target="_blank">Novation Launchkey</a><p>Great budget package that comes with Ableton Lite, 4/5</p></li>
+      </ul>
+      <h2>Hardware</h2>
+      <small>Allow you the freedom to work away from a computer.</small>
+      <ul>
+        <li><a href="https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2334524.m570.l1313.TR5.TRC2.A0.H0.Xmpc+1000.TRS1&_nkw=mpc+1000&_sacat=0&LH_TitleDesc=0&_prodsch=0&_osacat=0&_odkw=mpc+100" target="_blank">Akai MPC 1000</a><p>Large learning curve but worth it. A classic.</p></li>
+        <li><a href="https://www.sweetwater.com/store/detail/SP404A--roland-sp-404a-linear-wave-sampler">Roland SP-404A</a><p>Another staple of hardware samplers.</p></li>
+      </ul>
+    </aside>
+  </section> <!-- end of page 2  -->
+
+  <section data-role="page" data-dialog="true" id="info">
+    <header data-role="header">
+      <h1>Info</h1>
+    </header>
+    <article role="main" class="ui-content">
+      <h2>Assignment Info:</h2>
+      <p>Name: Christian Vasquez</p>
+      <p>Date: 5-11-18</p>
+      <p>Project: Week 15 jQuery mobile</p>
+    </article>
+  </section> <!-- end info box -->
+
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <script type="text/javascript">
+    (function(){
+        "use strict";
+
+    })();
+  </script>
+</body>
+<!--
+  Name: Christian Vasquez
+  Date: 5-11-18
+  Project: Week 15 Jquery mobile
+ -->
+</html>
